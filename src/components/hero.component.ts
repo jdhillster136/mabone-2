@@ -44,10 +44,10 @@ import { RouterLink } from '@angular/router';
         <!-- Hero Visual / Dashboard Representation -->
         <div class="relative mx-auto max-w-5xl rounded-xl p-2 bg-gradient-to-b from-zinc-100 to-white border border-zinc-200 shadow-2xl">
            <div class="relative rounded-lg overflow-hidden aspect-[16/9] md:aspect-[21/9] bg-zinc-900">
-              <img 
-                 ngSrc="https://picsum.photos/1200/600?random=10" 
-                 width="1200" 
-                 height="600" 
+              <img
+                 ngSrc="/assets/girlworld.jpg"
+                 width="1200"
+                 height="600"
                  alt="Waste Management Operations"
                  class="object-cover w-full h-full opacity-80 hover:opacity-90 transition-opacity duration-700 hover:scale-105"
                  priority
