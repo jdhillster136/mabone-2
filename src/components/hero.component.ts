@@ -6,36 +6,36 @@ import { RouterLink } from '@angular/router';
   standalone: true,
   imports: [RouterLink],
   template: `
-    <section class="relative pt-8 pb-16 sm:pt-12 sm:pb-20 lg:pt-24 lg:pb-32 overflow-hidden bg-white">
+    <section class="relative pt-8 pb-16 sm:pt-12 sm:pb-20 lg:pt-24 lg:pb-32 overflow-hidden bg-cover bg-center bg-no-repeat" style="background-image: url('/images/pexels-tomfisk-5099276.jpg');">
 
-      <!-- Mesh Gradients -->
-      <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[600px] bg-gradient-to-tr from-green-50 to-zinc-50 opacity-60 rounded-[100%] blur-3xl pointer-events-none -z-10"></div>
+      <!-- Dark Overlay for readability -->
+      <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/70 -z-10"></div>
 
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
 
         <!-- Badge -->
-        <div class="inline-flex items-center gap-2 px-3 py-1.5 mb-6 sm:mb-8 rounded-md bg-green-50 border border-green-100 text-green-800 text-xs font-bold uppercase tracking-wider animate-fade-in-up">
-          <span class="w-2 h-2 rounded-sm bg-green-500 animate-pulse"></span>
+        <div class="inline-flex items-center gap-2 px-3 py-1.5 mb-6 sm:mb-8 rounded-md bg-green-500/20 border border-green-400/30 text-green-100 text-xs font-bold uppercase tracking-wider animate-fade-in-up backdrop-blur-sm">
+          <span class="w-2 h-2 rounded-sm bg-green-400 animate-pulse"></span>
           Fully Accredited ISO & DOE Compliant
         </div>
 
         <!-- Headline -->
-        <h1 class="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-extrabold tracking-tight text-zinc-900 mb-6 sm:mb-8 leading-[1.15] md:leading-[1.1]">
+        <h1 class="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-extrabold tracking-tight text-white mb-6 sm:mb-8 leading-[1.15] md:leading-[1.1]">
           Waste Management.<br />
-          <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-900 via-green-700 to-green-900 animate-gradient">Reimagined.</span>
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-green-300 to-green-400 animate-gradient">Reimagined.</span>
         </h1>
-        
+
         <!-- Subheadline -->
-        <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-zinc-500 mb-8 sm:mb-10 leading-relaxed max-w-2xl mx-auto px-4">
+        <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-200 mb-8 sm:mb-10 leading-relaxed max-w-2xl mx-auto px-4">
           From cradle to grave. We handle industrial, hazardous, and recycling needs with absolute compliance and zero friction.
         </p>
 
         <!-- CTA Buttons -->
         <div class="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mb-12 sm:mb-16 lg:mb-20 px-4">
-          <a routerLink="/services" class="w-full sm:w-auto px-6 sm:px-8 py-3.5 sm:py-4 bg-zinc-900 text-white rounded-lg font-bold text-base sm:text-lg hover:bg-zinc-800 transition-all shadow-lg hover:shadow-xl">
+          <a routerLink="/services" class="w-full sm:w-auto px-6 sm:px-8 py-3.5 sm:py-4 bg-white text-zinc-900 rounded-lg font-bold text-base sm:text-lg hover:bg-gray-100 transition-all shadow-lg hover:shadow-xl">
             Explore Services
           </a>
-          <a href="https://wa.me/27681648526" target="_blank" class="w-full sm:w-auto px-6 sm:px-8 py-3.5 sm:py-4 bg-white border border-zinc-200 text-zinc-900 rounded-lg font-bold text-base sm:text-lg hover:bg-zinc-50 hover:border-zinc-300 transition-all shadow-sm">
+          <a href="https://wa.me/27681648526" target="_blank" class="w-full sm:w-auto px-6 sm:px-8 py-3.5 sm:py-4 bg-transparent border-2 border-white text-white rounded-lg font-bold text-base sm:text-lg hover:bg-white hover:text-zinc-900 transition-all shadow-sm">
             WhatsApp Us
           </a>
         </div>
