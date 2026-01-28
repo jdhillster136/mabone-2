@@ -6,12 +6,12 @@ import { RouterLink } from '@angular/router';
   standalone: true,
   imports: [RouterLink],
   template: `
-    <section class="relative pt-8 pb-16 sm:pt-12 sm:pb-20 lg:pt-24 lg:pb-32 overflow-hidden bg-cover bg-center bg-no-repeat" style="background-image: url('/images/pexels-tomfisk-5099276.jpg');">
+    <section class="relative min-h-screen pt-8 pb-16 sm:pt-12 sm:pb-20 lg:pt-24 lg:pb-32 overflow-hidden bg-cover bg-center bg-fixed bg-no-repeat" style="background-image: url('/images/pexels-tomfisk-5099276.jpg');">
 
       <!-- Dark Overlay for readability -->
-      <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/70 -z-10"></div>
+      <div class="absolute inset-0 bg-gradient-to-b from-black/80 via-black/70 to-black/80 pointer-events-none"></div>
 
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 flex flex-col justify-center min-h-screen py-12">
 
         <!-- Badge -->
         <div class="inline-flex items-center gap-2 px-3 py-1.5 mb-6 sm:mb-8 rounded-md bg-green-500/20 border border-green-400/30 text-green-100 text-xs font-bold uppercase tracking-wider animate-fade-in-up backdrop-blur-sm">
@@ -31,7 +31,7 @@ import { RouterLink } from '@angular/router';
         </p>
 
         <!-- CTA Buttons -->
-        <div class="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mb-12 sm:mb-16 lg:mb-20 px-4">
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 px-4">
           <a routerLink="/services" class="w-full sm:w-auto px-6 sm:px-8 py-3.5 sm:py-4 bg-white text-zinc-900 rounded-lg font-bold text-base sm:text-lg hover:bg-gray-100 transition-all shadow-lg hover:shadow-xl">
             Explore Services
           </a>
@@ -40,24 +40,16 @@ import { RouterLink } from '@angular/router';
           </a>
         </div>
 
-        <!-- Hero Visual / Dashboard Representation -->
-        <div class="relative mx-auto max-w-5xl rounded-lg sm:rounded-xl p-1.5 sm:p-2 bg-gradient-to-b from-zinc-100 to-white border border-zinc-200 shadow-2xl">
-           <div class="relative rounded-md sm:rounded-lg overflow-hidden aspect-[16/9] md:aspect-[21/9] bg-white">
-              <img
-                 src="/images/girlworld.jpg"
-                 alt="Waste Management Operations"
-                 class="object-contain w-full h-full transition-opacity duration-700"
-               />
-               <!-- Overlay UI Elements mimicking a dashboard or process -->
-               <div class="absolute bottom-3 left-3 sm:bottom-6 sm:left-6 md:bottom-10 md:left-10 bg-white/95 backdrop-blur-md p-3 sm:p-4 md:p-6 rounded-lg shadow-lg border border-white/20 max-w-[200px] sm:max-w-xs text-left">
-                  <div class="flex items-center gap-2 sm:gap-3 mb-1.5 sm:mb-2">
-                    <div class="w-2.5 h-2.5 sm:w-3 sm:h-3 bg-green-500 rounded-sm"></div>
-                    <span class="text-[10px] sm:text-xs font-bold text-zinc-500 uppercase">Status</span>
-                  </div>
-                  <p class="font-bold text-zinc-900 text-sm sm:text-base md:text-lg">Operational & Compliant</p>
-                  <p class="text-xs sm:text-sm text-zinc-500">Eden District & Surrounds</p>
-               </div>
-           </div>
+        <!-- Status Badge -->
+        <div class="mt-16 inline-flex items-center justify-center mx-auto">
+          <div class="bg-white/10 backdrop-blur-md p-4 sm:p-6 rounded-xl shadow-lg border border-white/20 max-w-xs text-center">
+            <div class="flex items-center justify-center gap-2 mb-2">
+              <div class="w-3 h-3 bg-green-400 rounded-sm animate-pulse"></div>
+              <span class="text-xs font-bold text-white uppercase tracking-wider">Status</span>
+            </div>
+            <p class="font-bold text-white text-base sm:text-lg mb-1">Operational & Compliant</p>
+            <p class="text-sm text-gray-300">Eden District & Surrounds</p>
+          </div>
         </div>
 
       </div>
