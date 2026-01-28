@@ -1,11 +1,10 @@
 import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { NgOptimizedImage } from '@angular/common';
 
 @Component({
   selector: 'app-about',
   standalone: true,
-  imports: [RouterLink, NgOptimizedImage],
+  imports: [RouterLink],
   template: `
     <div class="bg-white">
       <!-- Modern Hero Section -->
@@ -28,13 +27,8 @@ import { NgOptimizedImage } from '@angular/common';
           </div>
 
           <!-- Feature Image -->
-          <div class="relative rounded-2xl overflow-hidden aspect-[16/9] md:aspect-[21/9] bg-zinc-100 border border-zinc-200 shadow-2xl">
-            <img ngSrc="https://picsum.photos/1600/800?grayscale" width="1600" height="800" class="object-cover w-full h-full hover:scale-105 transition-transform duration-[2s]" alt="Ma'bone Operations Depot" priority />
-            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
-            <div class="absolute bottom-6 left-6 md:bottom-10 md:left-10 text-white max-w-lg">
-              <p class="font-bold text-lg md:text-xl">George Industria HQ</p>
-              <p class="text-zinc-300 text-sm md:text-base">Serving the entire Eden District & adjacent towns</p>
-            </div>
+          <div class="relative rounded-2xl overflow-hidden aspect-[16/9] md:aspect-[21/9] bg-white border border-zinc-200 shadow-2xl">
+            <img src="/images/screenshot_2026-01-28_122400.png" class="object-contain w-full h-full" alt="Sonke Environmental" />
           </div>
         </div>
       </section>
