@@ -44,8 +44,8 @@ import { RouterLink } from '@angular/router';
         <div class="relative mx-auto max-w-5xl rounded-lg sm:rounded-xl p-1.5 sm:p-2 bg-gradient-to-b from-zinc-100 to-white border border-zinc-200 shadow-2xl">
            <div class="relative rounded-md sm:rounded-lg overflow-hidden aspect-[16/9] md:aspect-[21/9] bg-white">
               <img
-                 src="/images/sonke-logo.png"
-                 alt="Sonke Environmental Logo"
+                 src="/images/girlworld.jpg"
+                 alt="Waste Management Operations"
                  class="object-contain w-full h-full transition-opacity duration-700"
                />
                <!-- Overlay UI Elements mimicking a dashboard or process -->
