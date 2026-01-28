@@ -19,7 +19,7 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
           <img
             src="/images/screenshot_2026-01-28_161342.png"
             alt="Ma'bone Logo"
-            class="h-10 w-auto group-hover:scale-105 transition-transform"
+            class="h-16 w-auto group-hover:scale-105 transition-transform"
           />
         </a>
 
