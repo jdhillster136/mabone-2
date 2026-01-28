@@ -46,7 +46,7 @@ import { RouterLink } from '@angular/router';
               <img
                  src="/images/girlworld.jpg"
                  alt="Waste Management Operations"
-                 class="object-cover w-full h-full transition-opacity duration-700 hover:scale-105"
+                 class="object-contain w-full h-full transition-opacity duration-700"
                />
                <!-- Overlay UI Elements mimicking a dashboard or process -->
                <div class="absolute bottom-3 left-3 sm:bottom-6 sm:left-6 md:bottom-10 md:left-10 bg-white/95 backdrop-blur-md p-3 sm:p-4 md:p-6 rounded-lg shadow-lg border border-white/20 max-w-[200px] sm:max-w-xs text-left">
