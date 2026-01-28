@@ -16,10 +16,10 @@ import { FloatingFacebookComponent } from './components/floating-facebook.compon
     FloatingFacebookComponent
   ],
   template: `
-    <div class="min-h-screen flex flex-col bg-white">
+    <div class="min-h-screen flex flex-col bg-white overflow-x-hidden">
       <app-navbar />
-      <!-- Increased padding-top (pt-28) to offset the larger fixed navbar -->
-      <main class="flex-grow pt-28">
+      <!-- Adjusted padding-top (pt-24 md:pt-28) to better fit mobile screens with the floating navbar -->
+      <main class="flex-grow pt-24 md:pt-28">
         <router-outlet />
       </main>
       <app-footer />
