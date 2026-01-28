@@ -12,17 +12,17 @@ import { RouterLink } from '@angular/router';
       
       <!-- Map Container -->
       <div class="w-full h-72 md:h-full md:absolute md:inset-0 z-0">
-        <iframe 
-          width="100%" 
-          height="100%" 
-          frameborder="0" 
-          scrolling="no" 
-          marginheight="0" 
-          marginwidth="0" 
-          src="https://maps.google.com/maps?q=Belden%20Ind%20Park%2C%20Unit%20D9%20Fichat%20St%2C%20George%20Industria%2C%20George%2C%206539&t=&z=15&ie=UTF8&iwloc=&output=embed"
+        <iframe
+          width="100%"
+          height="100%"
+          frameborder="0"
+          style="border:0"
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3297.8!2d22.4468!3d-33.9628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ddc67e7a2c8be8d%3A0x5e8b9e3f3b9c8e3e!2sBelden%20Industrial%20Park%2C%20Fichat%20St%2C%20George%20Industria%2C%20George%2C%206539!5e0!3m2!1sen!2sza!4v1706443200000!5m2!1sen!2sza"
           class="w-full h-full grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out"
           title="Ma'bone Location"
           loading="lazy"
+          allowfullscreen
         ></iframe>
       </div>
       
