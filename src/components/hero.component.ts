@@ -1,11 +1,10 @@
 import { Component, ChangeDetectionStrategy, signal } from '@angular/core';
-import { NgOptimizedImage } from '@angular/common';
 import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-hero',
   standalone: true,
-  imports: [NgOptimizedImage, RouterLink],
+  imports: [RouterLink],
   template: `
     <section class="relative pt-12 pb-20 lg:pt-24 lg:pb-32 overflow-hidden bg-white">
       
@@ -45,12 +44,9 @@ import { RouterLink } from '@angular/router';
         <div class="relative mx-auto max-w-5xl rounded-xl p-2 bg-gradient-to-b from-zinc-100 to-white border border-zinc-200 shadow-2xl">
            <div class="relative rounded-lg overflow-hidden aspect-[16/9] md:aspect-[21/9] bg-zinc-900">
               <img
-                 ngSrc="/images/girlworld.jpg"
-                 width="1200"
-                 height="600"
+                 src="/images/girlworld.jpg"
                  alt="Waste Management Operations"
                  class="object-cover w-full h-full opacity-80 hover:opacity-90 transition-opacity duration-700 hover:scale-105"
-                 priority
                />
                <!-- Overlay UI Elements mimicking a dashboard or process -->
                <div class="absolute bottom-6 left-6 md:bottom-10 md:left-10 bg-white/95 backdrop-blur-md p-4 md:p-6 rounded-lg shadow-lg border border-white/20 max-w-xs text-left">
