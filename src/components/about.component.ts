@@ -33,7 +33,7 @@ import { NgOptimizedImage } from '@angular/common';
             <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
             <div class="absolute bottom-6 left-6 md:bottom-10 md:left-10 text-white max-w-lg">
               <p class="font-bold text-lg md:text-xl">George Industria HQ</p>
-              <p class="text-zinc-300 text-sm md:text-base">Serving the entire Eden District & Southern Cape</p>
+              <p class="text-zinc-300 text-sm md:text-base">Serving the entire Eden District & adjacent towns</p>
             </div>
           </div>
         </div>
@@ -55,7 +55,7 @@ import { NgOptimizedImage } from '@angular/common';
                         Founded on the principles of reliability and strict legal compliance, Ma'bone has grown into a premier Integrated Waste Management service provider in the Eden District. We identified a critical gap in the market for a provider that didn't just "dump and run" but actively partnered with industrial clients to manage their environmental liability.
                     </p>
                     <p>
-                        From humble beginnings serving local businesses in George, we now manage complex waste streams for major industrial clients, medical facilities, and retail chains across the Southern Cape. Our philosophy is simple: <strong>Waste is a resource, not just a problem.</strong>
+                        From humble beginnings serving local businesses in George, we now manage complex waste streams for major industrial clients, medical facilities, and retail chains across adjacent towns. Our philosophy is simple: <strong>Waste is a resource, not just a problem.</strong>
                     </p>
                     <p>
                         We operate a fully permitted waste transfer station and fleet, ensuring that your waste is handled legally from the moment it leaves your premises until its final safe disposal or recycling.
