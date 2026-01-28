@@ -2,7 +2,7 @@ import '@angular/compiler';
 import { bootstrapApplication } from '@angular/platform-browser';
 import { AppComponent } from './src/app.component';
 import { provideZonelessChangeDetection } from '@angular/core';
-import { provideRouter, withHashLocation, Routes } from '@angular/router';
+import { provideRouter, withHashLocation, Routes, withInMemoryScrolling } from '@angular/router';
 import { HomeComponent } from './src/components/home.component';
 import { ServicesBentoComponent } from './src/components/services-bento.component';
 import { EmergencyComponent } from './src/components/emergency.component';
@@ -25,7 +25,11 @@ const routes: Routes = [
 bootstrapApplication(AppComponent, {
   providers: [
     provideZonelessChangeDetection(),
-    provideRouter(routes, withHashLocation())
+    provideRouter(
+      routes, 
+      withHashLocation(),
+      withInMemoryScrolling({ scrollPositionRestoration: 'top' })
+    )
   ]
 }).catch(err => console.error(err));
 

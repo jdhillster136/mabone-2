@@ -7,7 +7,7 @@ import { RouterLink } from '@angular/router';
   standalone: true,
   imports: [NgOptimizedImage, RouterLink],
   template: `
-    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-white">
+    <section class="relative pt-12 pb-20 lg:pt-24 lg:pb-32 overflow-hidden bg-white">
       
       <!-- Mesh Gradients -->
       <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[600px] bg-gradient-to-tr from-green-50 to-zinc-50 opacity-60 rounded-[100%] blur-3xl pointer-events-none -z-10"></div>

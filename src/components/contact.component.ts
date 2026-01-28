@@ -19,12 +19,24 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
             </div>
 
             <div class="space-y-8">
-              <a href="tel:0681648526" class="flex items-center gap-4 group p-4 -mx-4 rounded-lg hover:bg-zinc-50 transition-colors">
-                <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center text-green-800 group-hover:scale-105 transition-transform">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+              <!-- Office Number -->
+              <a href="tel:0448744774" class="flex items-center gap-4 group p-4 -mx-4 rounded-lg hover:bg-zinc-50 transition-colors">
+                <div class="w-12 h-12 bg-zinc-100 rounded-lg flex items-center justify-center text-zinc-800 group-hover:scale-105 transition-transform">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" /></svg>
                 </div>
                 <div>
-                  <div class="text-sm font-bold text-zinc-400 uppercase tracking-wider">Call Us</div>
+                  <div class="text-sm font-bold text-zinc-400 uppercase tracking-wider">Office</div>
+                  <div class="text-xl font-semibold text-zinc-900">044 8744 774</div>
+                </div>
+              </a>
+
+              <!-- WhatsApp Only -->
+              <a href="https://wa.me/27681648526" target="_blank" class="flex items-center gap-4 group p-4 -mx-4 rounded-lg hover:bg-zinc-50 transition-colors">
+                <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center text-green-800 group-hover:scale-105 transition-transform">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" /></svg>
+                </div>
+                <div>
+                  <div class="text-sm font-bold text-zinc-400 uppercase tracking-wider">WhatsApp Only</div>
                   <div class="text-xl font-semibold text-zinc-900">068 164 8526</div>
                 </div>
               </a>

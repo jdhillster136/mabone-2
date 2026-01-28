@@ -30,7 +30,12 @@ import { RouterLink } from '@angular/router';
             <!-- Service 1: Integrated Management (Large Card) -->
             <div class="col-span-1 md:col-span-2 lg:col-span-2 p-10 bg-zinc-50 rounded-xl border border-zinc-100 flex flex-col md:flex-row gap-10 items-start hover:border-green-200 hover:shadow-lg transition-all duration-300">
               <div class="w-20 h-20 bg-green-900 text-white rounded-lg flex items-center justify-center flex-shrink-0 shadow-xl shadow-green-900/20">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" /></svg>
+                <!-- Icon: Layers / System -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 2 7 12 12 22 7 12 2" />
+                  <polyline points="2 17 12 22 22 17" />
+                  <polyline points="2 12 12 17 22 12" />
+                </svg>
               </div>
               <div>
                 <h3 class="text-2xl font-bold text-zinc-900 mb-4">Integrated Waste Management (IWM)</h3>
@@ -49,7 +54,12 @@ import { RouterLink } from '@angular/router';
             <!-- Service 2: Hazardous Waste -->
             <div class="p-8 bg-white rounded-xl border border-zinc-200 hover:border-green-200 hover:shadow-xl transition-all duration-300 group">
                <div class="w-14 h-14 bg-orange-50 text-orange-600 rounded-lg flex items-center justify-center mb-8 group-hover:scale-105 transition-transform">
-                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>
+                 <!-- Icon: Alert Triangle -->
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                   <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z" />
+                   <path d="M12 9v4" />
+                   <path d="M12 17h.01" />
+                 </svg>
                </div>
                <h3 class="text-xl font-bold text-zinc-900 mb-3">Hazardous Chemicals</h3>
                <p class="text-zinc-500 mb-6 text-sm leading-relaxed">Safe collection and disposal of dangerous industrial chemicals.</p>
@@ -64,7 +74,10 @@ import { RouterLink } from '@angular/router';
             <!-- Service 3: Industrial Cleaning -->
             <div class="p-8 bg-white rounded-xl border border-zinc-200 hover:border-green-200 hover:shadow-xl transition-all duration-300 group">
                <div class="w-14 h-14 bg-blue-50 text-blue-600 rounded-lg flex items-center justify-center mb-8 group-hover:scale-105 transition-transform">
-                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                 <!-- Icon: Sparkles/Clean -->
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                   <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .962L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/>
+                 </svg>
                </div>
                <h3 class="text-xl font-bold text-zinc-900 mb-3">Industrial Cleaning</h3>
                <p class="text-zinc-500 mb-6 text-sm leading-relaxed">Deep cleaning solutions for industrial and commercial facilities.</p>
@@ -79,7 +92,10 @@ import { RouterLink } from '@angular/router';
             <!-- Service 4: Medical & Clinical -->
             <div class="p-8 bg-white rounded-xl border border-zinc-200 hover:border-green-200 hover:shadow-xl transition-all duration-300 group">
                <div class="w-14 h-14 bg-red-50 text-red-600 rounded-lg flex items-center justify-center mb-8 group-hover:scale-105 transition-transform">
-                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
+                 <!-- Icon: Activity/Heartbeat -->
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                 </svg>
                </div>
                <h3 class="text-xl font-bold text-zinc-900 mb-3">Medical & Clinical</h3>
                <p class="text-zinc-500 mb-6 text-sm leading-relaxed">Specialized handling of Health Care Risk Waste (HCRW).</p>
@@ -94,7 +110,15 @@ import { RouterLink } from '@angular/router';
              <!-- Service 5: Recycling -->
              <div class="p-8 bg-white rounded-xl border border-zinc-200 hover:border-green-200 hover:shadow-xl transition-all duration-300 group">
                <div class="w-14 h-14 bg-green-50 text-green-600 rounded-lg flex items-center justify-center mb-8 group-hover:scale-105 transition-transform">
-                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" /></svg>
+                 <!-- Icon: Recycle -->
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                   <path d="M7 19H4.815a1.83 1.83 0 0 1-1.57-.881 1.785 1.785 0 0 1-.004-1.784L7.196 9.5" />
+                   <path d="M11 19h8.203a1.83 1.83 0 0 0 1.556-.89 1.784 1.784 0 0 0 0-1.775l-1.226-2.12" />
+                   <path d="m14 16-3 3 3 3" />
+                   <path d="M8.293 13.596 7.196 9.5 3.1 9.598" />
+                   <path d="m9.344 5.811 1.093-1.892A1.83 1.83 0 0 1 11.985 3a1.784 1.784 0 0 1 1.546.888l3.943 6.843" />
+                   <path d="m13.378 5 3 3-3 3" />
+                 </svg>
                </div>
                <h3 class="text-xl font-bold text-zinc-900 mb-3">Recycling & Recovery</h3>
                <p class="text-zinc-500 mb-6 text-sm leading-relaxed">Maximizing resource recovery to support Zero-to-Landfill initiatives.</p>
@@ -109,7 +133,11 @@ import { RouterLink } from '@angular/router';
             <!-- Service 6: Compliance -->
             <div class="p-8 bg-white rounded-xl border border-zinc-200 hover:border-green-200 hover:shadow-xl transition-all duration-300 group">
                <div class="w-14 h-14 bg-purple-50 text-purple-600 rounded-lg flex items-center justify-center mb-8 group-hover:scale-105 transition-transform">
-                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
+                 <!-- Icon: Shield Check -->
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                   <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10" />
+                   <path d="m9 12 2 2 4-4" />
+                 </svg>
                </div>
                <h3 class="text-xl font-bold text-zinc-900 mb-3">Compliance & Consulting</h3>
                <p class="text-zinc-500 mb-6 text-sm leading-relaxed">Ensuring your business meets National Environmental Management standards.</p>
@@ -124,7 +152,10 @@ import { RouterLink } from '@angular/router';
             <!-- Service 7: Liquid Waste -->
             <div class="p-8 bg-white rounded-xl border border-zinc-200 hover:border-green-200 hover:shadow-xl transition-all duration-300 group">
                <div class="w-14 h-14 bg-cyan-50 text-cyan-600 rounded-lg flex items-center justify-center mb-8 group-hover:scale-105 transition-transform">
-                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" /></svg>
+                 <!-- Icon: Droplets / Waves -->
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                   <path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z" />
+                 </svg>
                </div>
                <h3 class="text-xl font-bold text-zinc-900 mb-3">Liquid Sanitation</h3>
                <p class="text-zinc-500 mb-6 text-sm leading-relaxed">Professional removal and disposal of liquid waste streams.</p>
@@ -139,7 +170,16 @@ import { RouterLink } from '@angular/router';
             <!-- Service 8: Spill Response (New) -->
             <div class="p-8 bg-white rounded-xl border border-zinc-200 hover:border-green-200 hover:shadow-xl transition-all duration-300 group">
                <div class="w-14 h-14 bg-rose-50 text-rose-600 rounded-lg flex items-center justify-center mb-8 group-hover:scale-105 transition-transform">
-                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                 <!-- Icon: Siren / Alarm -->
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                   <path d="M6 18h12" />
+                   <path d="M6 8v10" />
+                   <path d="M18 8v10" />
+                   <path d="M12 2v6" />
+                   <path d="m18.36 4.64-1.41 1.41" />
+                   <path d="m5.64 4.64 1.41 1.41" />
+                   <path d="M12 12v6" />
+                 </svg>
                </div>
                <h3 class="text-xl font-bold text-zinc-900 mb-3">Emergency Spill Response</h3>
                <p class="text-zinc-500 mb-6 text-sm leading-relaxed">24/7 Hazmat Reaction Unit for immediate containment and remediation.</p>
@@ -154,7 +194,14 @@ import { RouterLink } from '@angular/router';
              <!-- Service 9: Asbestos (New) -->
             <div class="p-8 bg-white rounded-xl border border-zinc-200 hover:border-green-200 hover:shadow-xl transition-all duration-300 group">
                <div class="w-14 h-14 bg-gray-100 text-gray-600 rounded-lg flex items-center justify-center mb-8 group-hover:scale-105 transition-transform">
-                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>
+                 <!-- Icon: Construction / Barrier -->
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                   <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                   <line x1="3" y1="9" x2="21" y2="9" />
+                   <line x1="3" y1="15" x2="21" y2="15" />
+                   <line x1="9" y1="3" x2="9" y2="21" />
+                   <line x1="15" y1="3" x2="15" y2="21" />
+                 </svg>
                </div>
                <h3 class="text-xl font-bold text-zinc-900 mb-3">Asbestos Management</h3>
                <p class="text-zinc-500 mb-6 text-sm leading-relaxed">Legally compliant removal and disposal of asbestos-containing materials.</p>
@@ -169,7 +216,11 @@ import { RouterLink } from '@angular/router';
             <!-- Service 10: Training & Supplies -->
              <div class="p-8 bg-white rounded-xl border border-zinc-200 hover:border-green-200 hover:shadow-xl transition-all duration-300 group">
                <div class="w-14 h-14 bg-zinc-100 text-zinc-600 rounded-lg flex items-center justify-center mb-8 group-hover:scale-105 transition-transform">
-                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>
+                 <!-- Icon: Graduation Cap / Education -->
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                   <path d="M22 10v6M2 10l10-5 10 5-10 5-10-5z" />
+                   <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                 </svg>
                </div>
                <h3 class="text-xl font-bold text-zinc-900 mb-3">Training & Supplies</h3>
                <p class="text-zinc-500 mb-6 text-sm leading-relaxed">Equipping your team with the knowledge and gear they need.</p>
@@ -184,7 +235,13 @@ import { RouterLink } from '@angular/router';
             <!-- Service 11: Confidential Destruction (New) -->
             <div class="p-8 bg-white rounded-xl border border-zinc-200 hover:border-green-200 hover:shadow-xl transition-all duration-300 group">
                <div class="w-14 h-14 bg-indigo-50 text-indigo-600 rounded-lg flex items-center justify-center mb-8 group-hover:scale-105 transition-transform">
-                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" /></svg>
+                 <!-- Icon: File Shred / Lock -->
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                   <polyline points="3 6 5 6 21 6" />
+                   <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
+                   <line x1="10" y1="11" x2="10" y2="17" />
+                   <line x1="14" y1="11" x2="14" y2="17" />
+                 </svg>
                </div>
                <h3 class="text-xl font-bold text-zinc-900 mb-3">Secure Destruction</h3>
                <p class="text-zinc-500 mb-6 text-sm leading-relaxed">Confidential destruction of documents and off-spec products.</p>

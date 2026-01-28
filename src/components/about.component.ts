@@ -9,7 +9,7 @@ import { NgOptimizedImage } from '@angular/common';
   template: `
     <div class="bg-white">
       <!-- Modern Hero Section -->
-      <section class="relative pt-32 pb-16 md:pt-48 md:pb-32 overflow-hidden bg-white">
+      <section class="relative pt-12 pb-16 md:pt-24 md:pb-32 overflow-hidden bg-white">
         <!-- Background Elements -->
         <div class="absolute top-0 right-0 w-[800px] h-[800px] bg-green-50/50 rounded-full blur-3xl -mr-40 -mt-40 pointer-events-none"></div>
         <div class="absolute bottom-0 left-0 w-[600px] h-[600px] bg-zinc-50/80 rounded-full blur-3xl -ml-20 -mb-20 pointer-events-none"></div>
@@ -101,7 +101,11 @@ import { NgOptimizedImage } from '@angular/common';
                 <!-- Pillar 1 -->
                 <div class="p-10 rounded-3xl border border-zinc-200 bg-white hover:border-green-200 hover:shadow-xl hover:shadow-green-900/5 transition-all duration-300 group">
                     <div class="w-14 h-14 bg-green-50 text-green-700 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                        <!-- Icon: Shield Check -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10" />
+                          <path d="m9 12 2 2 4-4" />
+                        </svg>
                     </div>
                     <h3 class="text-2xl font-bold text-zinc-900 mb-4">Absolute Compliance</h3>
                     <p class="text-zinc-600 leading-relaxed">
@@ -112,7 +116,12 @@ import { NgOptimizedImage } from '@angular/common';
                 <!-- Pillar 2 -->
                 <div class="p-10 rounded-3xl border border-zinc-200 bg-white hover:border-green-200 hover:shadow-xl hover:shadow-green-900/5 transition-all duration-300 group">
                     <div class="w-14 h-14 bg-blue-50 text-blue-700 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" /></svg>
+                        <!-- Icon: Lightbulb / Innovation -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-1 1.5-2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5" />
+                          <path d="M9 18h6" />
+                          <path d="M10 22h4" />
+                        </svg>
                     </div>
                     <h3 class="text-2xl font-bold text-zinc-900 mb-4">Environmental Innovation</h3>
                     <p class="text-zinc-600 leading-relaxed">
@@ -123,7 +132,13 @@ import { NgOptimizedImage } from '@angular/common';
                 <!-- Pillar 3 -->
                 <div class="p-10 rounded-3xl border border-zinc-200 bg-white hover:border-green-200 hover:shadow-xl hover:shadow-green-900/5 transition-all duration-300 group">
                     <div class="w-14 h-14 bg-purple-50 text-purple-700 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
+                        <!-- Icon: Users / Team -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                          <circle cx="9" cy="7" r="4" />
+                          <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                          <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                        </svg>
                     </div>
                     <h3 class="text-2xl font-bold text-zinc-900 mb-4">Expert Team</h3>
                     <p class="text-zinc-600 leading-relaxed">
@@ -134,7 +149,10 @@ import { NgOptimizedImage } from '@angular/common';
                 <!-- Pillar 4 -->
                 <div class="p-10 rounded-3xl border border-zinc-200 bg-white hover:border-green-200 hover:shadow-xl hover:shadow-green-900/5 transition-all duration-300 group">
                     <div class="w-14 h-14 bg-orange-50 text-orange-700 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+                        <!-- Icon: Zap / Rapid Response -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                          <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                        </svg>
                     </div>
                     <h3 class="text-2xl font-bold text-zinc-900 mb-4">Rapid Response</h3>
                     <p class="text-zinc-600 leading-relaxed">
