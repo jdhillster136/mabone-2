@@ -16,11 +16,16 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
       >
         <!-- Logo -->
         <a routerLink="/" (click)="closeMenu()" class="flex items-center gap-2 group">
-          <img
-            src="/images/screenshot_2026-01-28_161342.png"
-            alt="Ma'bone Logo"
-            class="h-16 w-auto group-hover:scale-105 transition-transform"
-          />
+          <div
+            class="w-8 h-8 rounded-full flex items-center justify-center font-bold text-lg group-hover:scale-110 transition-transform"
+            [class]="scrolled() ? 'bg-white text-green-950' : 'bg-green-900 text-white'"
+          >
+            M
+          </div>
+          <span
+            class="text-xl font-bold tracking-tight transition-colors"
+            [class]="scrolled() ? 'text-white' : 'text-zinc-900'"
+          >Ma'bone</span>
         </a>
 
         <!-- Desktop Links -->
