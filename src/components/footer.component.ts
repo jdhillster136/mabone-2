@@ -22,6 +22,11 @@ import { RouterLink } from '@angular/router';
             <div class="inline-flex items-center gap-2 px-3 py-1 bg-white/5 rounded-md text-green-100 text-xs font-bold border border-white/10">
               Part of Belrex Group
             </div>
+            <img
+              src="/images/screenshot_2026-01-28_161342 copy.png"
+              alt="Ma'bone Integrated & Hazardous Waste Management"
+              class="mt-8 w-full max-w-md"
+            />
           </div>
 
           <!-- Services -->
