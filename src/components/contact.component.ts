@@ -104,6 +104,72 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
         </div>
       </div>
     </section>
+
+    <!-- Location Section -->
+    <section class="py-16 bg-zinc-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+
+          <!-- Location Info -->
+          <div class="space-y-6">
+            <div>
+              <h2 class="text-3xl md:text-4xl font-bold text-zinc-900 mb-4 tracking-tight">Visit Our Depot</h2>
+              <p class="text-lg text-zinc-600">
+                Drop off your recyclables or hazardous waste at our facility. Our team is ready to assist you.
+              </p>
+            </div>
+
+            <div class="space-y-4">
+              <div class="flex items-start gap-4">
+                <div class="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center text-green-800 flex-shrink-0">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+                </div>
+                <div>
+                  <div class="font-bold text-zinc-900 mb-1">Address</div>
+                  <div class="text-zinc-600">
+                    Unit D9, Belden Industrial Park<br>
+                    Fichat St, George Industria<br>
+                    George, 6539
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-4">
+                <div class="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center text-green-800 flex-shrink-0">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                </div>
+                <div>
+                  <div class="font-bold text-zinc-900 mb-1">Operating Hours</div>
+                  <div class="text-zinc-600">
+                    Monday - Friday: 08:00 - 17:00<br>
+                    Saturday & Sunday: Closed
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex gap-4 pt-4">
+              <a href="https://maps.google.com/maps?q=Belden%20Ind%20Park%2C%20Unit%20D9%20Fichat%20St%2C%20George%20Industria%2C%20George%2C%206539" target="_blank" class="px-6 py-3 bg-zinc-900 text-white font-bold rounded-lg hover:bg-zinc-800 transition-colors">
+                Get Directions
+              </a>
+              <a href="tel:0448744774" class="px-6 py-3 bg-white border border-zinc-200 text-zinc-900 font-bold rounded-lg hover:bg-zinc-50 transition-colors">
+                Call Us
+              </a>
+            </div>
+          </div>
+
+          <!-- Map Image -->
+          <div class="rounded-xl overflow-hidden shadow-lg border border-zinc-200">
+            <img
+              src="/images/map-location.jpg"
+              alt="Ma'bone Waste Management Location Map"
+              class="w-full h-[400px] object-cover"
+            />
+          </div>
+
+        </div>
+      </div>
+    </section>
   `,
   changeDetection: ChangeDetectionStrategy.OnPush
 })
