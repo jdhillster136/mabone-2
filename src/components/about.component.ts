@@ -27,8 +27,8 @@ import { RouterLink } from '@angular/router';
           </div>
 
           <!-- Feature Image -->
-          <div class="relative rounded-2xl overflow-hidden aspect-[16/9] md:aspect-[21/9] bg-white border border-zinc-200 shadow-2xl">
-            <img src="/images/screenshot_2026-01-28_122400.png" class="object-contain w-full h-full" alt="Sonke Environmental" />
+          <div class="relative rounded-2xl overflow-hidden bg-white border border-zinc-200 shadow-2xl p-12 md:p-16">
+            <img src="/images/screenshot_2026-01-28_122400.png" class="w-full h-auto max-w-4xl mx-auto" alt="Sonke Environmental" />
           </div>
         </div>
       </section>
