@@ -42,11 +42,11 @@ import { RouterLink } from '@angular/router';
 
         <!-- Hero Visual / Dashboard Representation -->
         <div class="relative mx-auto max-w-5xl rounded-xl p-2 bg-gradient-to-b from-zinc-100 to-white border border-zinc-200 shadow-2xl">
-           <div class="relative rounded-lg overflow-hidden aspect-[16/9] md:aspect-[21/9] bg-zinc-900">
+           <div class="relative rounded-lg overflow-hidden aspect-[16/9] md:aspect-[21/9] bg-white">
               <img
                  src="/images/girlworld.jpg"
                  alt="Waste Management Operations"
-                 class="object-cover w-full h-full opacity-80 hover:opacity-90 transition-opacity duration-700 hover:scale-105"
+                 class="object-cover w-full h-full transition-opacity duration-700 hover:scale-105"
                />
                <!-- Overlay UI Elements mimicking a dashboard or process -->
                <div class="absolute bottom-6 left-6 md:bottom-10 md:left-10 bg-white/95 backdrop-blur-md p-4 md:p-6 rounded-lg shadow-lg border border-white/20 max-w-xs text-left">
