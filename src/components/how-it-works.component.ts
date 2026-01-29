@@ -126,8 +126,8 @@ export class HowItWorksComponent {
     {
       number: '02',
       title: 'Proposal & Strategy',
-      description: 'Based on the audit, we design a custom waste management plan. This includes bin placement, collection schedules, and recycling targets.',
-      details: ['Custom Quote', 'Service Level Agreement', 'Recycling Goals', 'Compliance Roadmap']
+      description: 'Based on the audit, we design a custom waste management plan. This includes container placement and collection schedules.',
+      details: ['Custom Quote', 'Service Level Agreement', 'Compliance Roadmap']
     },
     {
       number: '03',
