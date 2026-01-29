@@ -1,20 +1,23 @@
 import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { NgClass } from '@angular/common';
 
 @Component({
   selector: 'app-how-it-works',
   standalone: true,
-  imports: [RouterLink, NgClass],
+  imports: [RouterLink],
   template: `
     <div class="bg-white">
       <!-- Header -->
       <section class="relative py-24 bg-zinc-50 overflow-hidden border-b border-zinc-200">
+        <div class="absolute inset-0">
+          <img src="/images/screenshot_2026-01-29_115540.png" alt="" class="w-full h-full object-cover opacity-90" />
+          <div class="absolute inset-0 bg-gradient-to-b from-white/80 via-white/70 to-white/85"></div>
+        </div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-          <h1 class="text-4xl md:text-6xl font-extrabold text-zinc-900 mb-6 tracking-tight">
+          <h1 class="text-4xl md:text-6xl font-extrabold text-zinc-900 mb-6 tracking-tight drop-shadow-sm">
             Streamlined. <span class="text-green-700">Transparent.</span>
           </h1>
-          <p class="text-xl text-zinc-500 max-w-2xl mx-auto leading-relaxed">
+          <p class="text-xl text-zinc-600 max-w-2xl mx-auto leading-relaxed font-medium drop-shadow-sm">
             We've simplified industrial waste management into a predictable, compliant, and efficient process. Here is how we partner with you.
           </p>
         </div>
