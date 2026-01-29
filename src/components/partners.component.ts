@@ -10,7 +10,7 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
         
         <div class="flex flex-wrap justify-center items-center gap-x-16 gap-y-10">
           <div class="text-xl font-extrabold text-zinc-300 hover:text-green-900 transition-colors cursor-default select-none">
-            Eden District
+            Garden Route
           </div>
           <div class="text-xl font-extrabold text-zinc-300 hover:text-green-900 transition-colors cursor-default select-none">
             DOE Compliant

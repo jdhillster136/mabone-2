@@ -48,7 +48,7 @@ import { RouterLink } from '@angular/router';
               <span class="text-xs font-bold text-white uppercase tracking-wider">Status</span>
             </div>
             <p class="font-bold text-white text-base sm:text-lg mb-1">Operational & Compliant</p>
-            <p class="text-sm text-gray-300">Eden District & Surrounds</p>
+            <p class="text-sm text-gray-300">Garden Route & Surrounds</p>
           </div>
         </div>
 

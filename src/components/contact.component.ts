@@ -57,7 +57,7 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
                 </div>
                 <div>
                    <div class="text-xs sm:text-sm font-bold text-zinc-400 uppercase tracking-wider">Service Area</div>
-                   <div class="text-lg sm:text-xl font-semibold text-zinc-900">George & Eden District</div>
+                   <div class="text-lg sm:text-xl font-semibold text-zinc-900">George & Garden Route</div>
                 </div>
               </div>
             </div>

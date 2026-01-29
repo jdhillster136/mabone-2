@@ -46,7 +46,7 @@ import { RouterLink } from '@angular/router';
                 </div>
                 <div class="md:col-span-8 text-lg text-zinc-600 leading-relaxed space-y-8">
                     <p>
-                        Founded on the principles of reliability and strict legal compliance, Ma'bone has grown into a premier Integrated Waste Management service provider in the Eden District. We identified a critical gap in the market for a provider that didn't just "dump and run" but actively partnered with industrial clients to manage their environmental liability.
+                        Founded on the principles of reliability and strict legal compliance, Ma'bone has grown into a premier Integrated Waste Management service provider in the Garden Route. We identified a critical gap in the market for a provider that didn't just "dump and run" but actively partnered with industrial clients to manage their environmental liability.
                     </p>
                     <p>
                         From humble beginnings serving local businesses in George, we now manage complex waste streams for major industrial clients, medical facilities, and retail chains across adjacent towns. Our philosophy is simple: <strong>Waste is a resource, not just a problem.</strong>
@@ -182,7 +182,7 @@ import { RouterLink } from '@angular/router';
                     </div>
                     <div class="bg-white/5 backdrop-blur-md p-8 rounded-2xl border border-white/10 hover:bg-white/10 transition-colors">
                         <h4 class="font-bold text-2xl mb-3 text-white">Our Vision</h4>
-                        <p class="text-zinc-300 text-lg">To be the preferred partner for integrated waste management in the Eden District, recognized for our commitment to zero-landfill initiatives and safety excellence.</p>
+                        <p class="text-zinc-300 text-lg">To be the preferred partner for integrated waste management in the Garden Route, recognized for our commitment to zero-landfill initiatives and safety excellence.</p>
                     </div>
                 </div>
             </div>
