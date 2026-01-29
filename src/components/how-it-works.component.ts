@@ -120,7 +120,7 @@ export class HowItWorksComponent {
     {
       number: '01',
       title: 'Consultation & Audit',
-      description: 'We visit your facility to understand your waste streams, volumes, and current pain points. We conduct a basic compliance check during this phase.',
+      description: 'We visit your facility to understand your waste management and volumes. We conduct a basic compliance check during this phase.',
       details: ['Waste Stream Identification', 'Volume Estimation', 'Risk Assessment', 'Cost Analysis']
     },
     {
