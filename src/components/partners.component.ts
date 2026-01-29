@@ -16,13 +16,16 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
             DOE Compliant
           </div>
           <div class="text-xl font-extrabold text-zinc-300 hover:text-green-900 transition-colors cursor-default select-none">
-            SA Waste Info
+            Institute of Solid Waste
           </div>
           <div class="text-xl font-extrabold text-zinc-300 hover:text-green-900 transition-colors cursor-default select-none">
-            AIA Approved
+            SAIOSH Accredited
           </div>
           <div class="text-xl font-extrabold text-zinc-300 hover:text-green-900 transition-colors cursor-default select-none">
-            Institute of Waste
+            IPW Accredited
+          </div>
+          <div class="text-xl font-extrabold text-zinc-300 hover:text-green-900 transition-colors cursor-default select-none">
+            INTRA Accredited
           </div>
         </div>
       </div>
