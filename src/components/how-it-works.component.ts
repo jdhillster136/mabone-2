@@ -88,7 +88,7 @@ import { RouterLink } from '@angular/router';
                 </div>
                 <div class="p-6 rounded-xl border border-zinc-700 bg-zinc-800/50">
                   <h4 class="font-bold text-lg mb-2">What areas do you service?</h4>
-                  <p class="text-zinc-400">We primarily serve the Garden Route (George, Mossel Bay, Knysna) and surrounding areas in the Western Cape.</p>
+                  <p class="text-zinc-400">We primarily serve the Garden Route (George, Mossel Bay, Knysna, Oudtshoorn) and surrounding areas.</p>
                 </div>
                 <div class="p-6 rounded-xl border border-zinc-700 bg-zinc-800/50">
                   <h4 class="font-bold text-lg mb-2">Can you handle medical waste?</h4>
