@@ -92,7 +92,7 @@ import { RouterLink } from '@angular/router';
                 </div>
                 <div class="p-6 rounded-xl border border-zinc-700 bg-zinc-800/50">
                   <h4 class="font-bold text-lg mb-2">Can you handle medical waste?</h4>
-                  <p class="text-zinc-400">Absolutely. We are fully accredited to transport and manage Health Care Risk Waste (HCRW) and other hazardous materials.</p>
+                  <p class="text-zinc-400">Absolutely. We are fully accredited to transport and manage Health Care Risk Waste (HCRW).</p>
                 </div>
              </div>
            </div>
