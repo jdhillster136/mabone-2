@@ -132,7 +132,7 @@ export class HowItWorksComponent {
     {
       number: '03',
       title: 'Implementation',
-      description: 'We deploy the necessary equipment (skips, wheelie bins, cages) and, if required, place trained staff on your site to manage sorting.',
+      description: 'We deploy the necessary equipment (skips, wheelie bins, containers) and, if required, place trained staff on your site to manage sorting.',
       details: ['Equipment Delivery', 'Staff Placement', 'H&S Induction', 'Site Setup']
     },
     {
