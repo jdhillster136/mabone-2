@@ -84,7 +84,7 @@ import { RouterLink } from '@angular/router';
              <div class="space-y-6">
                 <div class="p-6 rounded-xl border border-zinc-700 bg-zinc-800/50">
                   <h4 class="font-bold text-lg mb-2">Do you provide Safe Disposal Certificates?</h4>
-                  <p class="text-zinc-400">Yes. For every load of hazardous waste removed, we provide a manifest and a Safe Disposal Certificate compliant with NEM:WA regulations.</p>
+                  <p class="text-zinc-400">Yes. For every load of hazardous waste removed, we provide a manifest and a Safe Disposal Certificate compliant with NEMWA regulations.</p>
                 </div>
                 <div class="p-6 rounded-xl border border-zinc-700 bg-zinc-800/50">
                   <h4 class="font-bold text-lg mb-2">What areas do you service?</h4>
