@@ -9,15 +9,14 @@ import { RouterLink } from '@angular/router';
     <div class="bg-white">
       
       <!-- Header -->
-      <section class="relative py-24 bg-zinc-900 overflow-hidden">
+      <section class="relative py-24 overflow-hidden">
          <div class="absolute inset-0">
-            <div class="absolute inset-0 bg-[url('/images/girlworld-environment.jpg')] bg-cover bg-center bg-no-repeat opacity-30"></div>
-            <div class="absolute inset-0 bg-gradient-to-b from-zinc-900/80 via-zinc-900/70 to-zinc-900"></div>
-            <div class="absolute inset-0 bg-[linear-gradient(45deg,#052e16_1px,transparent_1px),linear-gradient(-45deg,#052e16_1px,transparent_1px)] bg-[size:20px_20px] opacity-30"></div>
+            <img src="/images/girlworld-environment.jpg" alt="" class="w-full h-full object-cover" />
+            <div class="absolute inset-0 bg-white/40"></div>
          </div>
          <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 tracking-tight">Our Services</h1>
-            <p class="text-xl text-zinc-400 max-w-2xl mx-auto">
+            <h1 class="text-4xl md:text-6xl font-bold text-zinc-900 mb-6 tracking-tight drop-shadow-sm">Our Services</h1>
+            <p class="text-xl text-zinc-700 max-w-2xl mx-auto font-medium drop-shadow-sm">
               From general recycling to high-risk hazardous disposal, Ma'bone provides end-to-end waste management solutions tailored to your industry.
             </p>
          </div>

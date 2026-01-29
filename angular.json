@@ -27,7 +27,8 @@
               {
                 "glob": "**/*",
                 "input": "public",
-                "output": "."
+                "output": ".",
+                "ignore": ["**/*copy*.jpg", "**/*copy*.png", "**/* *"]
               }
             ]
           },
