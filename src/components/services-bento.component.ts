@@ -11,7 +11,7 @@ import { RouterLink } from '@angular/router';
       <!-- Header -->
       <section class="relative py-24 overflow-hidden">
          <div class="absolute inset-0">
-            <img src="/images/girlworld-environment.jpg" alt="" class="w-full h-full object-cover" />
+            <img src="/images/girlworld-environment.jpg" alt="" class="w-full h-full object-cover object-[center_30%]" />
             <div class="absolute inset-0 bg-white/40"></div>
          </div>
          <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
