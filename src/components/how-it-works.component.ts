@@ -10,7 +10,7 @@ import { RouterLink } from '@angular/router';
       <!-- Header -->
       <section class="relative py-24 bg-zinc-50 overflow-hidden border-b border-zinc-200">
         <div class="absolute inset-0">
-          <img src="/images/screenshot_2026-01-29_115540.png" alt="" class="w-full h-full object-cover" />
+          <img src="/images/screenshot_2026-01-29_115540.png" alt="" class="w-full h-full object-cover object-[center_65%]" />
           <div class="absolute inset-0 bg-gradient-to-b from-white/40 via-white/35 to-white/50"></div>
         </div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
