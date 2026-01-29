@@ -138,8 +138,8 @@ export class HowItWorksComponent {
     {
       number: '04',
       title: 'Operations & Management',
-      description: 'We handle the daily grind. Regular collections, on-site separation of recyclables, and safe handling of hazardous materials.',
-      details: ['Scheduled Collections', 'On-site Sorting', 'Hazardous Removal', 'Manifest Generation']
+      description: 'We handle the daily grind. Regular collections and safe handling of hazardous materials.',
+      details: ['Scheduled Collections', 'Waste Removal', 'Waste Manifest Generation']
     },
     {
       number: '05',
