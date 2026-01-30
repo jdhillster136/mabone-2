@@ -16,7 +16,7 @@ import { RouterLink } from '@angular/router';
          </div>
          <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 class="text-4xl md:text-6xl font-bold text-zinc-900 mb-6 tracking-tight drop-shadow-sm">Our Services</h1>
-            <p class="text-xl text-zinc-700 max-w-2xl mx-auto font-medium drop-shadow-sm">
+            <p class="text-xl text-zinc-900 max-w-2xl mx-auto font-bold drop-shadow-sm">
               From general recycling to high-risk hazardous disposal, Ma'bone provides end-to-end waste management solutions tailored to your industry.
             </p>
          </div>
