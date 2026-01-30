@@ -102,8 +102,6 @@ import { RouterLink } from '@angular/router';
                <ul class="space-y-3 text-sm text-zinc-600 font-medium">
                  <li>• Infectious Waste & Sharps</li>
                  <li>• Pharmaceutical Waste</li>
-                 <li>• Anatomical Waste</li>
-                 <li>• Expired Medicines</li>
                </ul>
             </div>
 
