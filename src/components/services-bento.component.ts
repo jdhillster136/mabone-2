@@ -85,8 +85,7 @@ import { RouterLink } from '@angular/router';
                <ul class="space-y-3 text-sm text-zinc-600 font-medium">
                  <li>• High Pressure Cleaning</li>
                  <li>• Fat Trap & Separator Cleaning</li>
-                 <li>• Factory Deep Cleans</li>
-                 <li>• Tank Cleaning & Decontamination</li>
+                 <li>• Wash Bay and Oil Trap Cleaning</li>
                </ul>
             </div>
 
