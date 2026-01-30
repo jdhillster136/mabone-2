@@ -81,7 +81,7 @@ import { RouterLink } from '@angular/router';
                  </svg>
                </div>
                <h3 class="text-xl font-bold text-zinc-900 mb-3">Industrial Cleaning</h3>
-               <p class="text-zinc-500 mb-6 text-sm leading-relaxed">Deep cleaning solutions for industrial and commercial facilities.</p>
+               <p class="text-zinc-500 mb-6 text-sm leading-relaxed">Deep cleaning solutions for industrial and waste facility.</p>
                <ul class="space-y-3 text-sm text-zinc-600 font-medium">
                  <li>• High Pressure Cleaning</li>
                  <li>• Fat Trap & Separator Cleaning</li>
