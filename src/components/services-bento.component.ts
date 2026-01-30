@@ -98,7 +98,7 @@ import { RouterLink } from '@angular/router';
                  </svg>
                </div>
                <h3 class="text-xl font-bold text-zinc-900 mb-3">Medical & Clinical</h3>
-               <p class="text-zinc-500 mb-6 text-sm leading-relaxed">Specialized handling of Health Care Risk Waste (HCRW).</p>
+               <p class="text-zinc-500 mb-6 text-sm leading-relaxed">Credited handling of Health Care Risk Waste (HCRW).</p>
                <ul class="space-y-3 text-sm text-zinc-600 font-medium">
                  <li>• Infectious Waste & Sharps</li>
                  <li>• Pharmaceutical Waste</li>
