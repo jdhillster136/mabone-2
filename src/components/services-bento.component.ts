@@ -153,7 +153,7 @@ import { RouterLink } from '@angular/router';
                  </svg>
                </div>
                <h3 class="text-xl font-bold text-zinc-900 mb-3">Liquid Sanitation</h3>
-               <p class="text-zinc-500 mb-6 text-sm leading-relaxed">Professional removal and disposal of liquid waste streams.</p>
+               <p class="text-zinc-500 mb-6 text-sm leading-relaxed">Professional removal and liquid waste management.</p>
                <ul class="space-y-3 text-sm text-zinc-600 font-medium">
                  <li>• Septic Tank Pumping</li>
                  <li>• Grease Trap Maintenance</li>
