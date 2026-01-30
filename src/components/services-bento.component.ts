@@ -177,12 +177,12 @@ import { RouterLink } from '@angular/router';
                  </svg>
                </div>
                <h3 class="text-xl font-bold text-zinc-900 mb-3">Emergency Spill Response</h3>
-               <p class="text-zinc-500 mb-6 text-sm leading-relaxed">24/7 Hazmat Reaction Unit for immediate containment and remediation.</p>
+               <p class="text-zinc-500 mb-6 text-sm leading-relaxed">Hazmat Reaction Unit for immediate containment and remediation.</p>
                <ul class="space-y-3 text-sm text-zinc-600 font-medium">
                  <li>• Roadside Accident Cleanup</li>
                  <li>• Industrial Spills</li>
                  <li>• Site Rehabilitation</li>
-                 <li>• 24-Hour Emergency Line</li>
+                 <li>• Emergency Line</li>
                </ul>
             </div>
 

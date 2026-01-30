@@ -9,7 +9,7 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
         <div class="grid md:grid-cols-2 gap-12 items-center bg-white border border-zinc-200 p-8 md:p-12 shadow-sm rounded-xl">
           
           <div>
-             <span class="text-green-900 font-bold tracking-widest uppercase text-xs mb-4 block">24/7 Response</span>
+             <span class="text-green-900 font-bold tracking-widest uppercase text-xs mb-4 block">Emergency Response</span>
              <h2 class="text-3xl md:text-4xl font-bold text-zinc-900 mb-6">Emergency Spill Containment</h2>
              <p class="text-lg text-zinc-500 mb-8 leading-relaxed">
                Accidents happen. Ma'bone is ready. Our specialized Hazmat Reaction Unit provides rapid emergency spill containment and roadside assistance.
