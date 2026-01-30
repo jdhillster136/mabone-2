@@ -27,7 +27,7 @@ import { RouterLink } from '@angular/router';
 
         <!-- Subheadline -->
         <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-200 mb-8 sm:mb-10 leading-relaxed max-w-2xl mx-auto px-4">
-          From cradle to grave. We handle industrial, hazardous, and recycling needs with absolute compliance and zero friction.
+          From cradle to grave. We handle industrial, waste removal, and recycling needs with absolute compliance and zero friction.
         </p>
 
         <!-- CTA Buttons -->
