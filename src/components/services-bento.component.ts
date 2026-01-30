@@ -67,7 +67,7 @@ import { RouterLink } from '@angular/router';
                <ul class="space-y-3 text-sm text-zinc-600 font-medium">
                  <li>• Chemical Sludge & Solvents</li>
                  <li>• Contaminated Rags/Drums</li>
-                 <li>• Fluorescent Tubes & E-Waste</li>
+                 <li>• Fluorescent Tubes</li>
                  <li>• Safe Disposal Certificates</li>
                </ul>
             </div>
@@ -126,7 +126,6 @@ import { RouterLink } from '@angular/router';
                <ul class="space-y-3 text-sm text-zinc-600 font-medium">
                  <li>• Cardboard, Paper, Plastic</li>
                  <li>• Scrap Metal Recovery</li>
-                 <li>• Electronic Waste (e-Waste)</li>
                  <li>• Rebate Management</li>
                </ul>
             </div>
