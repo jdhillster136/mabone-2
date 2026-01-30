@@ -123,7 +123,6 @@ import { RouterLink } from '@angular/router';
                <ul class="space-y-3 text-sm text-zinc-600 font-medium">
                  <li>• Cardboard, Paper, Plastic</li>
                  <li>• Scrap Metal Recovery</li>
-                 <li>• Rebate Management</li>
                </ul>
             </div>
 
