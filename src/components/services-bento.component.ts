@@ -68,7 +68,7 @@ import { RouterLink } from '@angular/router';
                  <li>• Chemical Sludge & Solvents</li>
                  <li>• Contaminated Rags/Drums</li>
                  <li>• Fluorescent Tubes</li>
-                 <li>• Safe Disposal Certificates</li>
+                 <li>• Credited Services Certificate</li>
                </ul>
             </div>
 
