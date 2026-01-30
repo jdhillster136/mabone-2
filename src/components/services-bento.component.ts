@@ -136,7 +136,7 @@ import { RouterLink } from '@angular/router';
                  </svg>
                </div>
                <h3 class="text-xl font-bold text-zinc-900 mb-3">Compliance & Consulting</h3>
-               <p class="text-zinc-500 mb-6 text-sm leading-relaxed">Ensuring your business meets National Environmental Management standards.</p>
+               <p class="text-zinc-500 mb-6 text-sm leading-relaxed">Ensuring your business meets National Environmental waste Management.</p>
                <ul class="space-y-3 text-sm text-zinc-600 font-medium">
                  <li>• Waste Management Plans (WMP)</li>
                  <li>• HIRA & AIA Assessments</li>
