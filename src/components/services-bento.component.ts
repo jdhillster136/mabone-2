@@ -242,8 +242,6 @@ import { RouterLink } from '@angular/router';
                <p class="text-zinc-500 mb-6 text-sm leading-relaxed">Confidential destruction of documents and off-spec products.</p>
                <ul class="space-y-3 text-sm text-zinc-600 font-medium">
                  <li>• Document Shredding</li>
-                 <li>• Product Destruction</li>
-                 <li>• Brand Protection</li>
                  <li>• Witnessed Disposal</li>
                </ul>
             </div>
