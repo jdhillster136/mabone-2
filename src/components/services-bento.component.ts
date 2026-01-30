@@ -141,7 +141,6 @@ import { RouterLink } from '@angular/router';
                  <li>• Waste Management Plans (WMP)</li>
                  <li>• HIRA & AIA Assessments</li>
                  <li>• External Compliance Auditing</li>
-                 <li>• Waste Impact Reports</li>
                </ul>
             </div>
 
