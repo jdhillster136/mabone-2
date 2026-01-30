@@ -41,7 +41,7 @@ import { RouterLink } from '@angular/router';
               <div>
                 <h3 class="text-2xl font-bold text-zinc-900 mb-4">Integrated Waste Management (IWM)</h3>
                 <p class="text-zinc-600 mb-8 leading-relaxed text-lg">
-                  Our flagship service offers a complete "cradle to grave" solution. We take over your site's entire waste function, implementing sorting systems, managing staff, and ensuring 100% legislative compliance.
+                  Our flagship service offers a complete "cradle to grave" solution. We oversee your site's entire waste function, implementing sorting systems, and ensuring 100% legislative compliance.
                 </p>
                 <ul class="grid sm:grid-cols-2 gap-4 text-sm font-medium text-zinc-700">
                   <li class="flex items-center gap-3"><div class="w-2 h-2 bg-green-500 rounded-sm"></div> On-site waste sorting & separation</li>
