@@ -243,6 +243,8 @@ import { RouterLink } from '@angular/router';
                <ul class="space-y-3 text-sm text-zinc-600 font-medium">
                  <li>• Document Shredding</li>
                  <li>• Witnessed Disposal</li>
+                 <li>• Supervisory Disposal</li>
+                 <li>• Confidently Disposal</li>
                </ul>
             </div>
 
