@@ -156,7 +156,7 @@ import { RouterLink } from '@angular/router';
                <p class="text-zinc-500 mb-6 text-sm leading-relaxed">Professional removal and liquid waste management, bio remediations and safe disposal of liquid waste.</p>
                <ul class="space-y-3 text-sm text-zinc-600 font-medium">
                  <li>• Septic Tank Pumping</li>
-                 <li>• Grease Trap Maintenance</li>
+                 <li>• Grease and Oil Trap Maintenance</li>
                  <li>• Effluent Disposal</li>
                  <li>• Sludge Removal</li>
                </ul>
